@@ -9,6 +9,7 @@ We unlock the value of our client's data by pairing deep business strategy with 
 ##
 Looking for professional data services in the GTA or Waterloo Region? 
 
+
 [Contact][def] Overview Analytics today.
 
 [def]: https://overviewanalytics.ca/contact
