@@ -17,7 +17,7 @@ import Main from '../layouts/Main';
 
 const Live = () => (
   <Main
-    title="Live"
+    title="Livestream"
     description="Livestreaming Video"
   >
     <article className="post markdown" id="live">
