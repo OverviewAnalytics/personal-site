@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // import dayjs from 'dayjs';
 
+// eslint-disable-next-line react/function-component-definition
 const Cell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
@@ -23,7 +24,7 @@ Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     link: PropTypes.string,
-    image: PropTypes.string.isRequired,
+    // image: PropTypes.string.isRequired,
     // date: PropTypes.string.isRequired,
     desc: PropTypes.string.isRequired,
   }).isRequired,
