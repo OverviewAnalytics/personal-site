@@ -48,7 +48,7 @@ function About() {
         escapeHtml={false}
       />
     </article>
-  </Main>)
+  </Main>);
 }
 
 export default About;
