@@ -18,8 +18,9 @@ const markdown = raw('../data/about.md');
 // Make all hrefs react router links
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
-const About = () => (
-  <Main
+function About() {
+  // eslint-disable-next-line react/jsx-wrap-multilines
+  return <Main
     title="About"
     description="Learn about Overview Analytics"
   >
@@ -49,6 +50,6 @@ const About = () => (
       />
     </article>
   </Main>
-);
+}
 
 export default About;
