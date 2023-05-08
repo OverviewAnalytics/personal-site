@@ -23,11 +23,11 @@ const Contact = () => (
         <p>Contact Us: </p>
         <EmailLink />
       </div>
-      <header>
+      {/* <header>
         <div className="title">
           <iframe title="square-booking-flow" src="https://square.site/appointments/buyer/widget/9x0957pgxktr2f/LNBV7SAYVA2FZ" width="100%" height="1300" frameBorder="0" scrolling="yes" />
         </div>
-      </header>
+      </header> */}
       {/* <ContactIcons /> */}
     </article>
 
