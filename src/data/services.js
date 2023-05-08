@@ -8,8 +8,8 @@ const data = [
     desc:
       'Data Strategy & Business Analytics - decision-oriented; data-driven.',
   },
-  {title: 'AI & Analytics', 
-    desc: 'BMOde' 
+  { title: 'AI & Analytics',
+    desc: 'BMOde',
   },
   {
     title: 'Location Services',
