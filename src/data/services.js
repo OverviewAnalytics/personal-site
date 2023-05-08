@@ -2,19 +2,22 @@
 const data = [
   {
     title: 'Data Strategy & Governance',
-    subtitle: 'Data Lakehouse Consulting',
-    link: 'https://cloud.google.com/blog/products/data-analytics/unifying-data-lakes-and-data-warehouses-across-clouds-with-biglake',
-    image: '/images/projects/biglake.png',
+    // subtitle: 'Data Lakehouse Consulting',
+    // link: 'https://cloud.google.com/blog/products/data-analytics/unifying-data-lakes-and-data-warehouses-across-clouds-with-biglake',
+    // image: '/images/projects/biglake.png',
     desc:
-      'Building Data Lakehouses with Google Biglake',
+      'Data Strategy & Business Analytics - decision-oriented; data-driven.',
+  },
+  {title: 'AI & Analytics',
+   desc: 'BMOde'
   },
   {
-    title: 'Maps & Location Analytics',
+    title: 'Location Services',
     // subtitle:,
     link: 'https://overviewanalytics.shinyapps.io/shiny-heatmap/',
     image: '/images/projects/keplergl.jpeg',
     desc:
-      'Building maps and dashboards to display location data in powerful, accessible ways.',
+      'GPS, Satellite, & Aerial Analytics - the OA perspective ',
   },
   {
     title: 'Edge & IoT Systems',
@@ -22,16 +25,16 @@ const data = [
     link: 'https://developer.nvidia.com/deepstream-sdk',
     image: '/images/projects/ds-workflow.png',
     desc:
-      'Building data processing pipelines for imagery, environmental, and location data.',
+      'Data pipelines for imagery, environmental, and location data.',
   },
-  {
-    title: 'Tech Stack',
-    subtitle: 'Overview Analytics Technology Stack',
-    link: '',
-    image: '/images/projects/OA_techstack.png',
-    desc:
-      'Technologies used by Overview Analytics in client engagements',
-  },
+  // {
+  //   title: 'Tech Stack',
+  //   subtitle: 'Overview Analytics Technology Stack',
+  //   link: '',
+  //   image: '/images/projects/OA_techstack.png',
+  //   desc:
+  //     'Technologies used by Overview Analytics in client engagements',
+  // },
 ];
 
 export default data;
