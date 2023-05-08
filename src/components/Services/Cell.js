@@ -24,8 +24,8 @@ Cell.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string.isRequired,
     link: PropTypes.string,
-    // image: PropTypes.string.isRequired,
-    // date: PropTypes.string.isRequired,
+    image: PropTypes.string,
+    date: PropTypes.string,
     desc: PropTypes.string.isRequired,
   }).isRequired,
 };
