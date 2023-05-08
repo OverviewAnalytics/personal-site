@@ -1,3 +1,4 @@
+/* eslint-disable react/function-component-definition */
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
@@ -18,8 +19,8 @@ const markdown = raw('../data/about.md');
 // Make all hrefs react router links
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
-function About() {
-  return <Main
+const About = () => (
+  <Main
     title="About"
     description="Learn about Overview Analytics"
   >
@@ -48,8 +49,7 @@ function About() {
         escapeHtml={false}
       />
     </article>
-  </Main> />
-  ;
-}
+  </Main>
+);
 
 export default About;
