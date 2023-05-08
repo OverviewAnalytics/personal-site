@@ -19,7 +19,7 @@ const markdown = raw('../data/about.md');
 const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 function About() {
-  return (<Main
+  return <Main
     title="About"
     description="Learn about Overview Analytics"
   >
@@ -48,7 +48,8 @@ function About() {
         escapeHtml={false}
       />
     </article>
-  </Main>);
+  </Main> />
+  ;
 }
 
 export default About;
