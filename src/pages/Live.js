@@ -27,7 +27,7 @@ const Live = () => (
         </div>
       </header>
       <p>
-        <iframe title="Kepler Plugin" src="https://github.com/OverviewAnalytics/KeplerDemo/blob/main/kepler.gl%20(2).json" scrolling="no" frameBorder="1" marginHeight="0px" marginWidth="0px" height="600px" width="800px" allowFullScreen />
+        <iframe title="Kepler Plugin" src="https://raw.githubusercontent.com/OverviewAnalytics/KeplerDemo/main/kepler.gl%20(2).json" scrolling="no" frameBorder="1" marginHeight="0px" marginWidth="0px" height="600px" width="800px" allowFullScreen />
       </p>
       {/* <ReactMarkdown
         source={markdown}
