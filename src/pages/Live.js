@@ -26,6 +26,9 @@ const Live = () => (
           <h2 data-testid="heading"><Link to="/live">live</Link></h2>
         </div>
       </header>
+      <p>
+        <iframe title="Kepler Plugin" src="https://kepler.gl/#/demo?mapUrl=https://raw.githubusercontent.com/ikespand/ikespand.github.io/master/_data/sample_data/keplergl_road_network.json" scrolling="no" frameBorder="1" marginHeight="0px" marginWidth="0px" height="800px" width="600px" allowFullScreen />
+      </p>
       {/* <ReactMarkdown
         source={markdown}
         renderers={{
@@ -39,9 +42,6 @@ const Live = () => (
       {/* <p>
         <iframe title="Huggingface Space" src="https://microsoft-hugginggpt.hf.space" width="850" height="450" />
       </p> */}
-      <p>
-        <iframe title="Kepler Plugin" src="https://kepler.gl/#/demo?mapUrl=https://raw.githubusercontent.com/ikespand/ikespand.github.io/master/_data/sample_data/keplergl_road_network.json" scrolling="no" frameBorder="1" marginHeight="0px" marginWidth="0px" height="800px" width="600px" allowFullScreen />
-      </p>
       <br />
       <br />
     </article>
