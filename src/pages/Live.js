@@ -36,8 +36,11 @@ const Live = () => (
       <p>
         <iframe title="vdo.ninja" allow="autoplay;camera;microphone;fullscreen;picture-in-picture;display-capture;" src="https://vdo.ninja/?scene&room=overviewroom&transparent&q&s&vb=10000" width="100%" height="450" />
       </p>
-      <p>
+      {/* <p>
         <iframe title="Huggingface Space" src="https://microsoft-hugginggpt.hf.space" width="850" height="450" />
+      </p> */}
+      <p>
+        <iframe title="Kepler Plugin" src= "https://kepler.gl/#/demo?mapUrl=https://raw.githubusercontent.com/ikespand/ikespand.github.io/master/_data/sample_data/keplergl_road_network.json" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameBorder="1" marginheight="0px" marginwidth="0px" height="800px" width="600px" allowFullscreen />
       </p>
       <br />
       <br />
