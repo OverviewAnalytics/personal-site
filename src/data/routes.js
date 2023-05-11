@@ -29,7 +29,7 @@ const routes = [
     path: '/insights',
   },
   {
-    label: 'Live',
+    label: 'Map',
     path: '/live',
   },
   {
