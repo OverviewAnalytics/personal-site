@@ -19,7 +19,7 @@ const routes = [
       {
         title: 'web design',
         url: 'web-design',
-      }]
+      }],
   },
   // {
   //   label: 'Stats',
