@@ -15,7 +15,7 @@ const data = [
   {
     title: 'Location Services',
     // subtitle:,
-    link: 'https://overviewanalytics.shinyapps.io/shiny-heatmap/',
+    link: 'https://overviewanalytics.ca/live/',
     image: '/images/projects/keplergl.jpeg',
     desc:
       'GPS, Satellite, & Aerial Analytics - the OA perspective ',
