@@ -40,12 +40,13 @@ const Live = () => (
         <iframe title="vdo.ninja" allow="autoplay;camera;microphone;fullscreen;picture-in-picture;display-capture;" src="https://vdo.ninja/?scene&room=overviewroom&transparent&q&s&vb=10000" width="100%" height="450" />
       </p>
       <p>
-      <iframe
-        src="https://anzorq-finetuned-diffusion.hf.space"
-        frameborder="0"
-        width="850"
-        height="450"
-      />
+        <iframe
+          title="hf"
+          src="https://anzorq-finetuned-diffusion.hf.space"
+          frameBorder="0"
+          width="100%"
+          height="450"
+        />
       </p>
       {/* <p>
         <iframe title="Huggingface Space" src="https://microsoft-hugginggpt.hf.space" width="850" height="450" />
