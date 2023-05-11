@@ -15,6 +15,11 @@ const routes = [
   {
     label: 'Services',
     path: '/services',
+    submenu: [
+      {
+        title: 'web design',
+        url: 'web-design',
+      }]
   },
   // {
   //   label: 'Stats',
