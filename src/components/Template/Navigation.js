@@ -29,9 +29,9 @@ return(
                 {l.subMenu.map((subItem) => (
                   <li key={subItem.label}>
                     <Link to={subItem.path}>{subItem.label}</Link>)
-                  </li>)))
+                  </li>))}
               </ul>}
-          </li>}
+          </li>
       </ul>
     </nav>
     <Hamburger />
