@@ -22,7 +22,9 @@ const Contact = () => (
       <div className="email-at">
         <p>Contact Us: </p>
         <EmailLink />
+        <p>
         <iframe title="intake-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeab0vTCsMLmxKCb-kNwu46QlcqGaBIqZYPR_V_94wKOeOUJQ/viewform?embedded=true" width="800" height="800%" frameBorder="0" marginhHeight="0" marginWidth="0" />
+        </p>
       </div>
       {/* <header>
         <div className="title">
