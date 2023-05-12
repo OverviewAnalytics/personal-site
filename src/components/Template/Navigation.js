@@ -22,6 +22,7 @@ return(
       <ul>
         {routes.filter((l) => !l.index).map((l) => (
           {/* // <li key={l.label}> */}
+          <li key={l.label} onClick={handleSubMenuToggle}>
             <Link to={l.path}>{l.label}</Link>
             {showSubMenu && l.subMenu && (
               <ul className="submenu">
@@ -30,6 +31,7 @@ return(
                     <Link to={subItem.path}>{subItem.label}</Link>)
                   </li>))}
               </ul>
+          </li>
       </ul>
     </nav>
     <Hamburger />
