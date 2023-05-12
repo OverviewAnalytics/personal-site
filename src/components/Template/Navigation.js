@@ -5,7 +5,7 @@ import Hamburger from './Hamburger';
 import routes from '../../data/routes';
 
 // Websites Navbar, displays routes defined in 'src/data/routes'
-const Navigation = () => (
+const Navigation = () => {
   const [showSubMenu, setShowSubMenu] = useState(false);
   
   const handleSubMenuToggle = () => {
@@ -39,5 +39,6 @@ return(
     <Hamburger />
   </header>
 );
-
+                };
+                
 export default Navigation;
