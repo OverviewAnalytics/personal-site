@@ -33,7 +33,7 @@ const Contact = () => (
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeab0vTCsMLmxKCb-kNwu46QlcqGaBIqZYPR_V_94wKOeOUJQ/viewform?embedded=true" width="640" height="100%" frameBorder="0" marginhHeight="0" marginWidth="0" />
         </div>
       </header>
-      <ContactIcons />
+      {/* <ContactIcons /> */}
     </article>
 
   </Main>
