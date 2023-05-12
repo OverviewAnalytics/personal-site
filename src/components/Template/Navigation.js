@@ -28,17 +28,15 @@ return(
               <ul className="submenu">
                 {l.subMenu.map((subItem) => (
                   <li key={subItem.label}>
-                    <Link to={subItem.path}>{subItem.label}</Link>
-                  </li>
-              </li>
+                    <Link to={subItem.path}>{subItem.label}</Link>)
+                  </li>)
+              </ul>}
           </li>
-      </ul>
-        ))}
       </ul>
     </nav>
     <Hamburger />
   </header>
 );
                 };
-                
+
 export default Navigation;
