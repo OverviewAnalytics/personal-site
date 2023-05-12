@@ -5,37 +5,41 @@ const routes = [
     path: '/',
   },
   {
-    label: 'About',
-    path: '/about',
+    label: 'Analytics',
+    path: '/analytics',
   },
-  // {
-  //   label: 'Resume',
-  //   path: '/resume',
-  // },
   {
-    label: 'Services',
-    path: '/services',
+    label: 'Edge',
+    path: '/edge',
   },
-  // {
-  //   label: 'Stats',
-  //   path: '/stats',
-  // },
   {
-    label: 'Team',
-    path: '/team',
-  },
-  // {
-  //   label: 'Insights',
-  //   path: '/insights',
-  // },
-  {
-    label: 'Map',
+    label: 'Location Services',
     path: '/live',
   },
   {
     label: 'Contact',
     path: '/contact',
   },
+  {
+    label: 'Team',
+    path: '/team',
+  },
+  {
+    label: 'About',
+    path: '/about',
+  },
+   // {
+  //   label: 'Insights',
+  //   path: '/insights',
+  // },
+  // {
+  //   label: 'Stats',
+  //   path: '/stats',
+  // },
+    // {
+  //   label: 'Resume',
+  //   path: '/resume',
+  // },
 ];
 
 export default routes;

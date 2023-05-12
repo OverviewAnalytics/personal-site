@@ -16,6 +16,8 @@ const Services = lazy(() => import('./pages/Services'));
 const Team = lazy(() => import('./pages/Team'));
 const Live = lazy(() => import('./pages/Live'));
 const Insights = lazy(() => import('./pages/Insights'));
+const Edge = lazy (() => import('/pages/Edge'));
+const Analytics = lazy (() => import('/pages/Analytics'));
 
 // const Resume = lazy(() => import('./pages/Resume'));
 // const Stats = lazy(() => import('./pages/Stats'));
