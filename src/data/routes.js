@@ -15,11 +15,6 @@ const routes = [
   {
     label: 'Services',
     path: '/services',
-    submenu: [
-      {
-        title: 'web design',
-        url: 'web-design',
-      }],
   },
   // {
   //   label: 'Stats',
@@ -29,10 +24,10 @@ const routes = [
     label: 'Team',
     path: '/team',
   },
-  {
-    label: 'Insights',
-    path: '/insights',
-  },
+  // {
+  //   label: 'Insights',
+  //   path: '/insights',
+  // },
   {
     label: 'Map',
     path: '/live',
