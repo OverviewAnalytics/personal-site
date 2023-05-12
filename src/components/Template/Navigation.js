@@ -21,7 +21,6 @@ return(
     <nav className="links">
       <ul>
         {routes.filter((l) => !l.index).map((l) => (
-          <li>
           {/* // <li key={l.label}> */}
             <Link to={l.path}>{l.label}</Link>
             {showSubMenu && l.subMenu && (
@@ -31,7 +30,6 @@ return(
                     <Link to={subItem.path}>{subItem.label}</Link>)
                   </li>))}
               </ul>
-          </li>
       </ul>
     </nav>
     <Hamburger />
