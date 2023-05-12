@@ -30,7 +30,7 @@ return(
                   <li key={subItem.label}>
                     <Link to={subItem.path}>{subItem.label}</Link>)
                   </li>))}
-              </ul>}
+              </ul>,
           </li>
       </ul>
     </nav>
