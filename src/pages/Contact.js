@@ -21,9 +21,6 @@ const Contact = () => (
       </header>
       <div className="email-at">
         <p>Contact Us: </p>
-        <p> 
-          <iframe title="intake-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeab0vTCsMLmxKCb-kNwu46QlcqGaBIqZYPR_V_94wKOeOUJQ/viewform?embedded=true" width="800" height="800%" frameBorder="0" marginhHeight="0" marginWidth="0" />
-        </p>
         <EmailLink />
       </div>
       {/* <header>
@@ -32,6 +29,13 @@ const Contact = () => (
         </div>
       </header> */}
       {/* <ContactIcons /> */}
+    </article>
+    <article>
+      <header>
+          <p> 
+            <iframe title="intake-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeab0vTCsMLmxKCb-kNwu46QlcqGaBIqZYPR_V_94wKOeOUJQ/viewform?embedded=true" width="800" height="800%" frameBorder="0" marginhHeight="0" marginWidth="0" />
+          </p>
+        </header>
     </article>
 
   </Main>
