@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // import ReactMarkdown from 'react-markdown';
 // import raw from 'raw.macro';
 
-// import Main from '../layouts/Main';
+import Full from '../layouts/Full';
 
 // uses babel to load contents of file
 // const markdown = raw('../data/about.md');
@@ -39,7 +39,7 @@ const Live = () => (
       <p>
         <iframe title="vdo.ninja" allow="autoplay;camera;microphone;fullscreen;picture-in-picture;display-capture;" src="https://vdo.ninja/?scene&room=overviewroom&transparent&q&s&vb=10000" width="100%" height="450" />
       </p>
-      {/* <p>
+      <p>
         <iframe
           title="hf"
           src="https://anzorq-finetuned-diffusion.hf.space"
@@ -47,7 +47,7 @@ const Live = () => (
           width="100%"
           height="450"
         />
-      </p> */}
+      </p>
       {/* <p>
         <iframe title="Huggingface Space" src="https://microsoft-hugginggpt.hf.space" width="850" height="450" />
       </p> */}
