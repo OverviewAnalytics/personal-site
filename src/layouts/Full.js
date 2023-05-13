@@ -17,7 +17,7 @@ const Full = (props) => (
     </Helmet>
     <div id="wrapper">
       <Navigation />
-      <div id="full">
+      <div id="main">
         {props.children}
       </div>
       {!props.fullPage && <SideBar />}
@@ -25,7 +25,7 @@ const Full = (props) => (
   </HelmetProvider>
 );
 
-Full.propTypes = {
+Main.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
@@ -35,7 +35,7 @@ Full.propTypes = {
   description: PropTypes.string,
 };
 
-Full.defaultProps = {
+Main.defaultProps = {
   children: null,
   fullPage: true,
   title: null,
