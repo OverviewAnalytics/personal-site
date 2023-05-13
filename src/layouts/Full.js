@@ -25,7 +25,7 @@ const Full = (props) => (
   </HelmetProvider>
 );
 
-Main.propTypes = {
+Full.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
@@ -35,7 +35,7 @@ Main.propTypes = {
   description: PropTypes.string,
 };
 
-Main.defaultProps = {
+Full.defaultProps = {
   children: null,
   fullPage: true,
   title: null,
