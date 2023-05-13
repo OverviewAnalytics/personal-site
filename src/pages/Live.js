@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // import ReactMarkdown from 'react-markdown';
 // import raw from 'raw.macro';
 
-import Full from '../layouts/Full';
+import Main from '../layouts/Main';
 
 // uses babel to load contents of file
 // const markdown = raw('../data/about.md');
@@ -16,7 +16,7 @@ import Full from '../layouts/Full';
 // const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 const Live = () => (
-  <Full
+  <Main
     title="Livestream"
     description="Livestreaming Video"
   >
@@ -54,7 +54,7 @@ const Live = () => (
       <br />
       <br />
     </article>
-  </Full>
+  </Main>
 );
 
 export default Live;
