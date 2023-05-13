@@ -16,7 +16,7 @@ import Full from '../layouts/Full';
 // const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 const Live = () => (
-  <Main
+  <Full
     title="Livestream"
     description="Livestreaming Video"
   >
@@ -54,7 +54,7 @@ const Live = () => (
       <br />
       <br />
     </article>
-  </Main>
+  </Full>
 );
 
 export default Live;
