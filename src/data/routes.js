@@ -4,10 +4,10 @@ const routes = [
     label: 'Overview Analytics',
     path: '/',
   },
-  {
-    label: 'Analytics',
-    path: '/analytics',
-  },
+  // {
+  //   label: 'Analytics',
+  //   path: '/analytics',
+  // },
   {
     label: 'Edge',
     path: '/edge',

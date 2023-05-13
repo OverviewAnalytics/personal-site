@@ -33,7 +33,7 @@ const Index = () => (
         <Link to="/services">services</Link>, {' '}
         or <Link to="/contact">contact</Link> us.
       </p>
-      <p> Code <a href="https://github.com/overviewanalytics/personal-site">here</a>.</p>
+      {/* <p> Code <a href="https://github.com/overviewanalytics/personal-site">here</a>.</p> */}
     </article>
   </Main>
 );
