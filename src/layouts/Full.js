@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
-import SideBar from '../components/Template/SideBar';
+// import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
 const Full = (props) => (
@@ -37,7 +37,7 @@ Full.propTypes = {
 
 Full.defaultProps = {
   children: null,
-  fullPage: false,
+  fullPage: true,
   title: null,
   description: 'Overview Analytics website.',
 };
