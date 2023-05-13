@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 // import ReactMarkdown from 'react-markdown';
 // import raw from 'raw.macro';
 
-import Main from '../layouts/Main';
+import Full from '../layouts/Full';
 
 // uses babel to load contents of file
 // const markdown = raw('../data/about.md');
@@ -54,7 +54,7 @@ const Edge = () => (
       <br />
       <br />
     </article>
-  </Main>
+  </Full>
 );
 
 export default Edge;
