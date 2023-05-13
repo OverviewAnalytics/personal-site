@@ -20,8 +20,8 @@ const Full = (props) => (
       <div id="full">
         {props.children}
       </div>
-      {props.fullPage}
-    </div>
+      {!props.fullPage && <SideBar />}
+      </div>
   </HelmetProvider>
 );
 
