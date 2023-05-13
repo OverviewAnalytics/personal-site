@@ -16,7 +16,7 @@ import Full from '../layouts/Full';
 // const LinkRenderer = ({ ...children }) => <Link {...children} />;
 
 const Edge = () => (
-  <Main
+  <Full
     title="Edge"
     description="Edge & IoT Systems"
   >
