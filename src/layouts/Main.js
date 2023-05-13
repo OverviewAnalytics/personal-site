@@ -37,7 +37,7 @@ Main.propTypes = {
 
 Main.defaultProps = {
   children: null,
-  fullPage: false,
+  fullPage: true,
   title: null,
   description: 'Overview Analytics website.',
 };
