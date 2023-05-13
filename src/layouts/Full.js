@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
-// import SideBar from '../components/Template/SideBar';
+import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
 const Full = (props) => (
