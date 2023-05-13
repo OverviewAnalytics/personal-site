@@ -19,9 +19,9 @@ const Full = (props) => (
       <Navigation />
       <div id="full">
         {props.children}
-      {/* </div>
-      {props.fullPage ? true : <SideBar />}
-    </div> */}
+      </div>
+      {/* {props.fullPage ? true : <SideBar />} */}
+    </div>
   </HelmetProvider>
 );
 
