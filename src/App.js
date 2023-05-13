@@ -31,6 +31,7 @@ const App = () => (
         <Route path="/insights" component={Insights} />
         <Route path="/services" component={Services} />
         <Route path="/live" component={Live} />
+        <Route path="/edge" component={Edge} />
         {/* <Route path="/stats" component={Stats} /> */}
         <Route path="/contact" component={Contact} />
         <Route path="/team" component={Team} />

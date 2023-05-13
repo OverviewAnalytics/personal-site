@@ -28,7 +28,7 @@ const routes = [
     label: 'About',
     path: '/about',
   },
-   // {
+  // {
   //   label: 'Insights',
   //   path: '/insights',
   // },
@@ -36,7 +36,7 @@ const routes = [
   //   label: 'Stats',
   //   path: '/stats',
   // },
-    // {
+  // {
   //   label: 'Resume',
   //   path: '/resume',
   // },
