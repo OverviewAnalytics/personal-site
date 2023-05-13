@@ -54,7 +54,7 @@ const Live = () => (
       <br />
       <br />
     </article>
-  </Main>
+  </Full>
 );
 
 export default Live;
