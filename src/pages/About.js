@@ -27,7 +27,7 @@ const About = () => (
     <article className="post markdown" id="about">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/about">About Us</Link></h2>
+          <h2 data-testid="heading"><Link to="/about">About</Link></h2>
         </div>
       </header>
       {/* <header>
