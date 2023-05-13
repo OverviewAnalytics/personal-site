@@ -26,7 +26,7 @@ const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
     <Suspense fallback={<Main />}>
       <Switch>
-        <Route exact path="/" component={About} />
+        <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
         <Route path="/insights" component={Insights} />
         <Route path="/services" component={Services} />
