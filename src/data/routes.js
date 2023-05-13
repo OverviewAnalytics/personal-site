@@ -4,7 +4,6 @@ const routes = [
     label: 'Overview Analytics',
     path: '/',
   },
- 
   {
     label: 'Edge',
     path: '/edge',
