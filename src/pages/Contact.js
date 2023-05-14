@@ -22,6 +22,7 @@ const Contact = () => (
       <div className="email-at">
         <p>Contact Us: </p>
         <EmailLink />
+        <Form />
         {/* <p>
           <iframe title="intake-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeab0vTCsMLmxKCb-kNwu46QlcqGaBIqZYPR_V_94wKOeOUJQ/viewform?embedded=true" width="800" height="1000" />
         </p> */}
