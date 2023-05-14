@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 import EmailLink from '../components/Contact/EmailLink';
+import Form from '../components/Template/ContactForm';
 // import Cell from '../components/Projects/Cell';
 
 // import data from '../data/qr';
