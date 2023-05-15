@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function Strapi() {
-  const [setData] = useState([]);
+  const [data, setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -16,6 +16,8 @@ function Strapi() {
 
     fetchData();
   }, []);
+  // eslint-disable-next-line no-console
+  console.log(data);
 }
 
 export default Strapi;
