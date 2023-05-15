@@ -10,8 +10,8 @@ const data = [
   {
     title: 'Lift & Shift',
     // subtitle:,
-    link: 'https://cloud.google.com/adoption-framework',
-    image: '/images/projects/cloudadoptframe.png',
+    link: 'http://localhost:1337/uploads/lighthouse_9fb6a2392d.jpeg',
+    image: '/uploads/lighthouse_9fb6a2392d.jpeg',
     desc: 'Lift & Shift Data Strategy',
   },
   {
