@@ -26,10 +26,10 @@ const Insights = () => (
         />
       ))}
        <div>
-      {Strapi.map(item => (
-        <div key={item.id}>
-          <h2>{item.title}</h2>
-          <p>{item.description}</p>
+      {Strapi.map(data => (
+        <div key={data.id}>
+          <h2>{data.title}</h2>
+          <p>{data.description}</p>
         </div>
       ))}
     </div>
