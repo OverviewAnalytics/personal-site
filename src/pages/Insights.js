@@ -5,6 +5,7 @@ import Main from '../layouts/Main';
 
 import Cell from '../components/Insights/Cell';
 import data from '../data/insights';
+import Strapi from '../components/Template/Strapi';
 
 const Insights = () => (
   <Main
@@ -24,6 +25,14 @@ const Insights = () => (
           key={insight.title}
         />
       ))}
+       <div>
+      {Strapi.map(item => (
+        <div key={item.id}>
+          <h2>{item.title}</h2>
+          <p>{item.description}</p>
+        </div>
+      ))}
+    </div>
     </article>
   </Main>
 );
