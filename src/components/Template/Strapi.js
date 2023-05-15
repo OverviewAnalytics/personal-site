@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const Strapi = () => {
-  const [data, setData] = useState([]);
+function Strapi() {
+  const [setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -16,6 +16,6 @@ const Strapi = () => {
 
     fetchData();
   }, []);
-};
+}
 
 export default Strapi;
