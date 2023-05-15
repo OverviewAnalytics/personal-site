@@ -19,21 +19,12 @@ const Insights = () => (
           {/* <p>Services offered by Overview Analytics</p> */}
         </div>
       </header>
-      {/* {data.map((insight) => (
-        <Cell
-          data={insight}
-          key={insight.title}
+      {data.map((article) => (
+        <Strapi
+          data={article}
+          key={article.title}
         />
-      ))} */}
-      <div>
-        {data.map((insight) => (
-          <div key={insight.title}>
-            <h2>{insight.title}</h2>
-            <p>{insight.description}</p>
-            <p>{insight.image}</p>
-          </div>
-        ))}
-      </div>
+      ))}
     </article>
   </Main>
 );
