@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Cell from '../components/Insights/Cell';
-import data from '../data/insights';
+// import data from '../data/insights';
 import Strapi from '../components/Template/Strapi';
 
 const Insights = () => (
@@ -19,20 +19,20 @@ const Insights = () => (
           {/* <p>Services offered by Overview Analytics</p> */}
         </div>
       </header>
-      {data.map((insight) => (
+      {/* {data.map((insight) => (
         <Cell
           data={insight}
           key={insight.title}
         />
-      ))}
-       <div>
-      {Strapi.map(data => (
-        <div key={data.id}>
-          <h2>{data.title}</h2>
-          <p>{data.description}</p>
-        </div>
-      ))}
-    </div>
+      ))} */}
+      <div>
+        {Strapi.map((data) => (
+          <div key={data.id}>
+            <h2>{data.title}</h2>
+            <p>{data.description}</p>
+          </div>
+        ))}
+      </div>
     </article>
   </Main>
 );
