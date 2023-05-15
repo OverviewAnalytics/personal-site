@@ -23,8 +23,12 @@ const Insights = () => (
         <Strapi
           data={article}
           key={article.title}
-        />
-      ))}
+        />))}
+      {data.map((insight) => (
+        <Cell
+          data={insight}
+          key={insight.title}
+        />))}
     </article>
   </Main>
 );
