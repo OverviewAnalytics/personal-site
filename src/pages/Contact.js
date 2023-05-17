@@ -38,11 +38,11 @@ const Contact = () => (
         </div>
       </header> */}
       {/* <ContactIcons /> */}
-      <header>
+      {/* <header>
         <div className="title">
           <h3 data-testid="heading"><Link to="/team">team</Link></h3>
         </div>
-      </header>
+      </header> */}
       {/* <ReactMarkdown
         source={markdown}
         renderers={{
