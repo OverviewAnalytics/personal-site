@@ -33,7 +33,7 @@ const Live = () => (
         hardware-accelerated capabilities of Kepler.gl.
       </p>
       <p>
-        <iframe title="Kepler Plugin" src="https://kepler.gl/#/demo?mapUrl=https://raw.githubusercontent.com/OverviewAnalytics/KeplerDemo/main/kepler.gl%20(4).json" scrolling="no" frameBorder="1" marginHeight="0px" marginWidth="0px" height="650" width="100%" allowFullScreen />
+        <iframe title="Kepler Plugin" src="https://kepler.gl/#/demo?mapUrl=https://raw.githubusercontent.com/OverviewAnalytics/KeplerDemo/main/kepler.gl%20(5).json" scrolling="no" frameBorder="1" marginHeight="0px" marginWidth="0px" height="650" width="100%" allowFullScreen />
       </p>
       {/* <ReactMarkdown
         source={markdown}
