@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import Main from '../layouts/Main';
-
 import Cell from '../components/Insights/Cell';
-import data from '../data/insights';
 import Strapi from '../components/Template/Strapi';
+import data from '../data/insights';
 
 const Insights = () => (
   <Main

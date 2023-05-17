@@ -13,7 +13,7 @@ const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Services = lazy(() => import('./pages/Services'));
-const Team = lazy(() => import('./pages/Team'));
+// const Team = lazy(() => import('./pages/Team'));
 const Live = lazy(() => import('./pages/Live'));
 const Insights = lazy(() => import('./pages/Insights'));
 const Edge = lazy(() => import('./pages/Edge'));
@@ -34,7 +34,7 @@ const App = () => (
         <Route path="/edge" component={Edge} />
         {/* <Route path="/stats" component={Stats} /> */}
         <Route path="/contact" component={Contact} />
-        <Route path="/team" component={Team} />
+        {/* <Route path="/team" component={Team} /> */}
         {/* <Route path="/resume" component={Resume} /> */}
         <Route component={NotFound} status={404} />
 
