@@ -27,6 +27,11 @@ const Live = () => (
         </div>
       </header>
       <p>
+        The map below is a demo app built using the Kepler.gl GIS visualization library.
+        It takes location data from Industry Canada's Spectrum Management System "SMS" Database and
+        maps it using Kepler's incredible in-browser, hardware-accelerated rendering of GIS data.
+      </p>
+      <p>
         <iframe title="Kepler Plugin" src="https://kepler.gl/#/demo?mapUrl=https://raw.githubusercontent.com/OverviewAnalytics/KeplerDemo/main/kepler.gl%20(4).json" scrolling="no" frameBorder="1" marginHeight="0px" marginWidth="0px" height="650" width="100%" allowFullScreen />
       </p>
       {/* <ReactMarkdown
