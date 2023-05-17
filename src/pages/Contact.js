@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 import EmailLink from '../components/Contact/EmailLink';
-import Form from '../components/Template/ContactForm';
+// import Form from '../components/Template/ContactForm';
 // import Cell from '../components/Projects/Cell';
 
 // import data from '../data/qr';
@@ -32,7 +32,6 @@ const Contact = () => (
           <Form />
         </p>
       </div> */}
-      
       {/* <header>
         <div className="title">
           <iframe title="square-booking-flow" src="https://square.site/appointments/buyer/widget/9x0957pgxktr2f/LNBV7SAYVA2FZ" width="100%" height="1300" frameBorder="0" scrolling="yes" />
