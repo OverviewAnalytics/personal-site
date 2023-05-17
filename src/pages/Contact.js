@@ -38,11 +38,9 @@ const Contact = () => (
         </div>
       </header> */}
       {/* <ContactIcons /> */}
-    </article>
-    <article className="post markdown" id="team">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/team">team</Link></h2>
+          <h3 data-testid="heading"><Link to="/team">team</Link></h3>
         </div>
       </header>
       {/* <ReactMarkdown
