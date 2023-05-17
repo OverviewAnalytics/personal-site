@@ -12,3 +12,7 @@ Looking for professional data services in the GTA or Waterloo Region?<br>
 [Contact][def] Overview Analytics today.
 
 [def]: https://overviewanalytics.ca/contact
+
+Overview Analytics was founded by [Alec Miller](https://ca.linkedin.com/in/alecjmiller?trk=profile-badge) who holds an HBA from the [Ivey School of Business](https://www.ivey.uwo.ca) and a Certificate in Data Science from the [University of Toronto SCS](https://learn.utoronto.ca/programs-courses/certificates/data-science).
+
+Prior to Overview Analytics, Alec worked in technology, telecom, and startup incubation including roles @ Rogers, MaRS, TechAlliance, and Lenovo.
